@@ -5,8 +5,8 @@
 
 typedef struct Node
 {
-	int data;//指针域
-	struct Node* pNext;//数据域
+	int data;//数据域
+	struct Node* pNext;//指针域
 }NODE, * PNODE;//NODE等价于struct Node    PNODE等价于struct Node *
 
 //函数声明
